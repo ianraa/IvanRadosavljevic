@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Radosavljević - Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #17a2b8;
+            --secondary-color: #f8f9fa;
+            --text-color: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0 auto;
+            max-width: 1400px;
+            padding: 0 40px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+        }
+
+        .contact-info i {
+            margin-right: 0.5rem;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0.5rem 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-item h3, .education-item h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-list, .tools-list, .attributes-list, .activities-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-item, .tool-item, .attribute-item, .activity-item {
+            background-color: var(--secondary-color);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 0 20px;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ivan Radosavljević</h1>
+            <p>Affiliate Marketing Manager | Digital Marketing Expert | CAD Technician</p>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Belgrade, Rd 11308</p>
+                <p><i class="fas fa-phone"></i> +381601850818</p>
+                <p><i class="fas fa-envelope"></i> ivani.ft@gmail.com</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#attributes">Attributes</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Strategic in marketing field with knack for completing projects efficiently and productively. Possess specialized skills in market analysis, digital advertising campaigns, and brand management. Excel in communication, teamwork, and adaptability, ensuring seamless integration of innovative strategies for business growth.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Affiliate Marketing Manager</h3>
+                <p>Lottomatrix Technologies D.O.O. | August 2024 - Current</p>
+                <ul>
+                    <li>Identified, recruited, and managed relationships with affiliates.</li>
+                    <li>Negotiated commission rates with affiliates to maximize profitability.</li>
+                    <li>Conducted research to determine ideal markets for products and services.</li>
+                    <li>Developed and implemented strategies to increase affiliate marketing revenue.</li>
+                </ul>
+            </div>
+            <!-- Add other experience items here -->
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Information Technology</h3>
+                <p>SoloLearn - Python | May 2024</p>
+                <ul>
+                    <li>Python Intermediate, Python Developer certificates for demonstrated theoretical and practical understanding</li>
+                </ul>
+            </div>
+            <!-- Add other education items here -->
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill-item">Campaign Management</span>
+                <span class="skill-item">Social Media Marketing</span>
+                <span class="skill-item">Budget Allocation</span>
+                <span class="skill-item">Data-driven decision-making</span>
+                <span class="skill-item">Adobe Creative Suite</span>
+                <span class="skill-item">WordPress Proficiency</span>
+                <span class="skill-item">Competitor Analysis</span>
+                <span class="skill-item">Project Management</span>
+                <span class="skill-item">Problem-solving abilities</span>
+            </div>
+        </section>
+
+        <section id="tools">
+            <h2>Tools and Software</h2>
+            <div class="tools-list">
+                <span class="tool-item">Similarweb</span>
+                <span class="tool-item">Ahrefs</span>
+                <span class="tool-item">ChatGPT</span>
+                <span class="tool-item">GDrive</span>
+                <span class="tool-item">MS Office (Excel, Word)</span>
+                <span class="tool-item">Photoshop</span>
+                <span class="tool-item">Canva</span>
+                <span class="tool-item">KitchenDraw</span>
+                <span class="tool-item">3DS Max</span>
+                <span class="tool-item">Blender</span>
+                <span class="tool-item">C#</span>
+                <span class="tool-item">Python</span>
+                <span class="tool-item">Unity</span>
+                <span class="tool-item">Unreal Engine</span>
+            </div>
+        </section>
+
+        <section id="attributes">
+            <h2>Attributes</h2>
+            <div class="attributes-list">
+                <span class="attribute-item">Experienced in different professional fields</span>
+                <span class="attribute-item">Responsible</span>
+                <span class="attribute-item">Loyal</span>
+                <span class="attribute-item">Communicative</span>
+                <span class="attribute-item">Patient</span>
+                <span class="attribute-item">Persistent</span>
+                <span class="attribute-item">Team player</span>
+                <span class="attribute-item">Fast learner</span>
+                <span class="attribute-item">Problem solver</span>
+                <span class="attribute-item">Devoted to success</span>
+                <span class="attribute-item">Good work ethic</span>
+                <span class="attribute-item">Optimist</span>
+            </div>
+        </section>
+
+        <section id="activities">
+            <h2>Activities</h2>
+            <div class="activities-list">
+                <span class="activity-item">Walking</span>
+                <span class="activity-item">Practicing martial arts</span>
+            </div>
+        </section>
+
+        <section id="languages">
+            <h2>Languages</h2>
+            <p>Serbian: First Language</p>
+            <p>English: C1</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ivan Radosavljević. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
